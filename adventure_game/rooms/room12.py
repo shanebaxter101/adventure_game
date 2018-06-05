@@ -60,16 +60,7 @@ def run_room(player_inventory):
                 next_room = 10
                 done_with_room = True
             else:
-                print("You cannot go", go_where)
-        elif the_command == "status":
-            utils.player_status(player_inventory)
-            utils.room_status(room12_inventory)
-        elif the_command == "examine":
-            if room12_status["chest locked"] == 1:
-                print(room12_description)
-            elif room12_status["chest locked"] == 0 and room12_inventory["sapphire"] == 1:
-                print(room12_description_chest_unlocked_sapphire_inside)
-            else:
+       #AAHHHHHH I DELETED SOME CODE PLEASE HELP!
                 print(room12_description_chest_unlocked_no_sapphire)
         elif the_command == "drop":
             drop_what = response[1]
