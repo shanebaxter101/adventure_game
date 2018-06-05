@@ -3,6 +3,9 @@ import os
 cwd = os.getcwd()
 sys.path.append(cwd+"/./../")
 
+
+
+
 # room imports
 import adventure_game.rooms.room1 as r1
 import adventure_game.rooms.room2 as r2
